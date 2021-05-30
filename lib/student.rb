@@ -21,9 +21,9 @@ class Student
   end 
  
   def self.create(name:, grade:)
-   student = Student(name, grade)
-   student.save
-   student
+   students = Student(name, grade)
+   students.save
+   students
   end
  
   def save
